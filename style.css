@@ -1,0 +1,52 @@
+body {
+	font-family: 'Comfortaa', cursive;
+	background-image: url(images/bg.jpg);
+	background-size: cover;
+}
+
+h1{
+	text-align: center;
+}
+
+h3 {
+	margin: 20px;
+}
+
+.dice {
+	text-align: center;
+	font-size: 140px;
+	width: 64px;
+	height: 64px;
+	background-image: url(images/dice.png);
+	margin: 0 auto;
+}
+
+#dice1 {
+	background-position: 0 -128px;
+}
+
+#dice2 {
+	background-position: 0 -320px;
+}
+#dice3 {
+	background-position: 0 -128px;
+}
+
+#dice4 {
+	background-position: 0 -320px;
+}
+
+.winner {
+	text-align: center;
+	margin: 0 auto;
+}
+#rolling {
+	text-align: center;
+	margin: 0 auto;
+}
+#final {
+	text-align: center;
+	margin: 0 auto;
+}
+
+
